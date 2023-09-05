@@ -51,3 +51,30 @@
         padding: 0;
     }
 }
+/* responsive for love-enjoy part-------------------------
+----------------------------------------------------*/
+@media screen and (max-width:1200px){
+    .love-enjoy{
+        flex-direction: column-reverse;
+        padding: 30px 120px;
+    }
+    .love-enjoy>div{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .love-enjoy{
+        padding:60px 0;
+        text-align: center;
+    }
+    .love-enjoy-btn{
+        padding: 10px;
+        bottom:-50px;
+        left: 0;
+    }
+    .love-enjoy-btn h1{
+        font-size: 30px;
+    }
+    
+}

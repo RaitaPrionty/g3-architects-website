@@ -113,6 +113,7 @@ header{
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     margin-bottom: 10px;
+    padding: 10px;
 
 }
 .love-enjoy-btn{
@@ -132,4 +133,18 @@ header{
 .love-enjoy-img{
     position: relative;
 
+}
+.love-enjoy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 50px 100px;
+    background-color: lightgoldenrodyellow;
+}
+.love-enjoy>div{
+    width: 50%;
+}
+.love-enjoy-img img{
+    width: 100%;
 }
