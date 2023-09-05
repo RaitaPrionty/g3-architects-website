@@ -148,3 +148,31 @@ header{
 .love-enjoy-img img{
     width: 100%;
 }
+/* styles of some facts part-----------------
+--------------------------------------------- */
+.card{
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 50px 0;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    
+   
+}
+
+.cards>.card{
+    width: 20%;
+    
+
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.some-facts{
+    padding: 80px 100px;
+    
+}

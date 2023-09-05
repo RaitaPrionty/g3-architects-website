@@ -78,3 +78,33 @@
     }
     
 }
+/* responsive for  some facts part---------------------
+----------------------------------------------------*/
+@media screen and (max-width:1050px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .cards>.card{
+        width: 100%;
+
+    }
+    .some-facts{
+        text-align: center;
+        
+    }
+    
+}
+@media screen and (max-width:700px){
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .some-facts{
+        padding:60px 0;
+    }
+    .card{
+        border-radius: 20px;
+    }
+    
+}
