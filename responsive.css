@@ -108,3 +108,19 @@
     }
     
 }
+/* responsive for sponsores part----------------
+----------------------------------------------- */
+@media screen and (max-width:776px){
+    .sponsore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .our-sponsore{
+        padding: 60px 0;
+    }
+    
+}

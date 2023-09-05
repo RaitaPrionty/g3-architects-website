@@ -176,3 +176,21 @@ header{
     padding: 80px 100px;
     
 }
+/* styles of sponsores part--------------------------
+--------------------------------------------------- */
+.sponsore img{
+    width: 100px;
+
+}
+.sponsore{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.our-sponsore{
+    text-align: center;
+    padding: 80px 100px;
+    background-color: lightgray;
+}
