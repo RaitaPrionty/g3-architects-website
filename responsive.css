@@ -76,6 +76,9 @@
     .love-enjoy-btn h1{
         font-size: 30px;
     }
+    .love-enjoy h2{
+        border: none;
+    }
     
 }
 /* responsive for  some facts part---------------------
@@ -121,6 +124,13 @@
     }
     .our-sponsore{
         padding: 60px 0;
+    }
+    
+}
+@media screen and (max-width:1280px){
+    footer{
+        width:100%;
+        margin: 0;
     }
     
 }

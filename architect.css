@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /* common styles----------
 --------------------------- */
@@ -148,6 +149,10 @@ header{
 .love-enjoy-img img{
     width: 100%;
 }
+.love-enjoy h2{
+    border-left: 5px solid coral;
+    
+}
 /* styles of some facts part-----------------
 --------------------------------------------- */
 .card{
@@ -193,4 +198,17 @@ header{
     text-align: center;
     padding: 80px 100px;
     background-color: lightgray;
+}
+/* styles of footer part--------------------------------
+----------------------------------------- */
+footer{
+    border-radius: 8px;
+background: #FFF4E7;
+text-align: center;
+padding: 20px 0;
+width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px auto;
 }
