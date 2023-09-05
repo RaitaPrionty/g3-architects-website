@@ -1,0 +1,135 @@
+/* styles for universal--------------------
+--------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles----------
+--------------------------- */
+.orange-btn{
+    color: white;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+   
+}
+/* styles of header nav part----------------------
+---------------------------------------------------- */
+header h2{
+    color: #131313;
+font-size: 30px;
+font-weight: 700;
+
+}
+.header-anchore a{
+    text-decoration: none;
+    color:  #424242;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.header-anchore{
+    display: flex;
+    gap: 30px;
+align-items: center;
+
+}
+header{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background: rgba(255, 144, 14, 0.10);
+
+}
+/* start banner part-------------------------
+----------------------------------- */
+.banner-writing{
+    text-align: center;
+}
+.banner-writing h2{
+    font-size: 30px;
+    color: #131313;
+}
+.parragraph{
+    color: #424242;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.banner-img{
+    width: 100%;
+    padding: 30px 0;
+    border: none;
+    border-radius: 8px;
+    
+  
+    
+}
+.banner-img img{
+    width: 100%;
+    
+}
+.banner{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 100px;
+
+}
+/* start of quick list styles--------------------
+--------------------------------------------- */
+.quick-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.quick-img img{
+    width:100%
+}
+.list{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+.quick-list>div{
+    width: 50%;
+}
+.quick-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 100px;
+    background-color: bisque;
+}
+
+/* styles of love and enjoy section--------------------------
+----------------------------------------------------------- */
+.flex{
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+
+}
+.love-enjoy-btn{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 15px;
+    position: absolute;
+    bottom: -50px;
+    left: -100px;
+}
+.love-enjoy-btn h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.love-enjoy-img{
+    position: relative;
+
+}
